@@ -1,0 +1,235 @@
+
+.container_contact {
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+#map {
+  width: 100%;
+  position: relative;
+  height: 500px;
+}
+
+#page_wrap.css_main .width_fix {
+  width: 100%;
+}
+#page_wrap.css_main .width_fix .portlet-boundary {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
+#page_wrap.css_main .width_fix .rrwebContactMaps-portlet.full {
+  width: 100%;
+}
+#contact_header{
+  display: block;
+  width: 360px;
+  height: 360px;
+  padding: 25px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  color: #000;
+}
+
+#contact_header h1 {
+  margin-left: 0;
+}
+
+#contact_header .tabs_contact {
+  padding: 0;
+}
+
+#contact_header .item_text,
+#contact_header .item_info {
+  margin: 0px 0px 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#contact_header .item_text {
+  font-weight: 400;
+  margin: 0px 0px 10px;
+  text-transform: none;
+}
+
+.tabs_contact ul.tab__btn li, .tabs_contact ul.tab__btn li.active, .tabs_contact ul li.active:hover {
+  border: 0px none;
+  padding: 8px 15px !important;
+  font-size: 14px;
+  line-height: 16px;
+  display: inline-block;
+}
+
+.tabs_contact ul.tab__btn li.active, .tabs_contact ul li.active:hover {
+  background: #2f6fb7;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.tabs_contact ul.tab__btn {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.custom_map_controls span,
+.rrwebContactMaps-portlet .button-holder  {
+  display: none;
+}
+
+.rrwebContactMaps-portlet h1 {
+    font: normal 30px/1 "Calibri-Bold", Arial, sans-serif;
+    color: #006fb8;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 0 0.8em 0;
+}
+
+
+ /*Configuration*/
+.aui {
+  .form-control,
+  input[type="text"].form-control,
+  input[type="number"].form-control,
+  .FilteredMultiSelect__filter,
+  .FilteredMultiSelect__select {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 0px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    margin-bottom: 10px;
+  }
+
+  input[type="checkbox"].form-control{
+    height: auto;
+  }
+
+  .FilteredMultiSelect {
+    margin-bottom: 20px;
+  }
+
+  .regionContactInf p {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+  }
+  button {
+    margin-right: 10px;
+  }
+  .col-xs-12 {
+    width: 100%
+  }
+  .col-xs-11 {
+    width: 91.66666667%
+  }
+  .col-xs-10 {
+    width: 83.33333333%
+  }
+  .col-xs-9 {
+    width: 75%
+  }
+  .col-xs-8 {
+    width: 66.66666667%
+  }
+  .col-xs-7 {
+    width: 58.33333333%
+  }
+  .col-xs-6 {
+    width: 50%
+  }
+  .col-xs-5 {
+    width: 41.66666667%
+  }
+  .col-xs-4 {
+    width: 33.33333333%
+  }
+  .col-xs-3 {
+    width: 25%
+  }
+  .col-xs-2 {
+    width: 16.66666667%
+  }
+  .col-xs-1 {
+    width: 8.33333333%
+  }
+  .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+
+    &:after {
+      clear: both;
+    }
+  }
+
+  .bs-example {
+    margin-top: 20px
+  }
+
+  .btn-danger {
+    float: right;
+  }
+  .cell {
+    //border: 1px solid #ccc;
+    padding: 5px;
+  }
+  .form-group {
+    margin-bottom: 0px;
+    padding: 10px 15px;
+  }
+  .form-group.btnbox {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+  }
+  .form-group label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+  .row.form-group .btn_yes,
+  .row.form-group .btn_no {
+    float: left;
+  }
+  .has-error-text {
+    color: red;
+    font-weight: 400;
+  }
+  .has-success-text {
+    color: #3c763d;
+    display: inline-block;
+    max-width: 100%;
+    width: 90%;
+    float: right;
+    font-weight: 700;
+    background-color: #dff0d8;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.8;
+  }
+}
