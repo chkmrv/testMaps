@@ -1,5 +1,4 @@
-   var  geoLoc = $('#top_location .current_location').text();
-    $('#contact_header .tabs_contact .tab__btn .active').html(geoLoc);
+
   ymaps.ready(init);
   var clusterer, placemark, geoLocation;
 
@@ -126,18 +125,6 @@
           console.log(obj);
           listGeo = obj;
           
-          if(obj.phone !== '') {
-            $('#contact_header .tabs_contact .item_phone').append("<div class='item_info'><span>Справочный телефон Управления:</span></div><div class='item_text'><span>" + obj.phone + "</span></div>");
-          }
-          if(obj.fax !== '') {
-            $('#contact_header .tabs_contact .item_fax').append("<div class='item_info'><span>Факс:</span></div><div class='item_text'><span>" + obj.fax + "</span></div>");
-          }
-          if(obj.email !== '') {
-            $('#contact_header .tabs_contact .item_email').append("<div class='item_info'><span>Email:</span></div><div class='item_text'><span>" + obj.email + "</span></div>");
-          }
-          if(obj.description !== '') {
-            $('#contact_header .tabs_contact .item_desc').append("<div class='item_info'><span>Описание:</span></div><div class='item_text'><span>" + obj.description + "</span></div>");
-          }
 
           myGroup = new ymaps.GeoObjectCollection({}, {
             iconLayout: 'default#image',
@@ -195,7 +182,7 @@
                     balloonContentHeader: listGeo.map[i].title,
               }, {
                 iconLayout: 'default#image', 
-                iconImageHref: '/rrwebContactMaps-portlet/images/pog1.png', 
+                iconImageHref: '/images/pog1.png', 
                 iconImageSize: [20, 28],
                 iconImageOffset: [-15, -24], 
                 balloonOffset: [-38, 15], 
