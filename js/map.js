@@ -116,15 +116,6 @@ function init() {
                   function (err) {}
               );
             })
-            
-            myGroup = new ymaps.GeoObjectCollection({}, {
-              iconLayout: 'default#image',
-              iconImageHref: '../images/pog1.png',
-              iconImageSize: [20, 28],
-              iconImageOffset: [-15, -24],
-              balloonOffset: [-15, 24]
-            });
-
           }
         });
       }
